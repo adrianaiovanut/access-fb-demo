@@ -27,7 +27,7 @@ public class NavigateFb {
 
         Thread.sleep(3000);
 
-
+        //login
         driverF.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]")).click();
     }
 }
